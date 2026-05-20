@@ -1,8 +1,19 @@
 <p align="center">
-  <a href="https://github.com/yml582484-collab/Agent"><img src="https://img.shields.io/badge/version-1.0.0-brightgreen" alt="Version"></a>
-  <a href="https://github.com/yml582484-collab/Agent/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="License"></a>
-  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.10+-blue" alt="Python"></a>
-  <a href="https://github.com/yml582484-collab"><img src="https://img.shields.io/badge/author-yml582484--collab-orange" alt="Author"></a>
+  <a href="https://github.com/yml582484-collab/Agent">
+    <img src="https://img.shields.io/badge/version-1.0.0-brightgreen" alt="Version">
+  </a>
+  <a href="https://github.com/yml582484-collab/Agent/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue" alt="License">
+  </a>
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/python-3.10+-blue" alt="Python">
+  </a>
+  <img src="https://img.shields.io/badge/DeepSeek-LLM-purple" alt="DeepSeek">
+  <img src="https://img.shields.io/badge/ReAct-Reasoning-red" alt="ReAct">
+  <img src="https://img.shields.io/badge/Memory-3%20Tier-orange" alt="Memory">
+  <img src="https://img.shields.io/badge/Tools-4%2B%20Built--in-success" alt="Tools">
+  <img src="https://img.shields.io/badge/FastAPI-RESTful-009688" alt="FastAPI">
+  <img src="https://img.shields.io/badge/ChromaDB-Vector%20Store-yellow" alt="ChromaDB">
 </p>
 
 # 🤖 b1t-AI 智能助手 - DeepSeek Agent 框架
