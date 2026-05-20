@@ -1,0 +1,55 @@
+            <div class="usage-section">
+                <div class="section-title">💰 账户余额</div>
+                <div class="balance-card" id="balanceCard">
+                    <div class="balance-main">
+                        <div class="balance-label">总余额</div>
+                        <div class="balance-amount" id="totalBalance">¥ 0.00</div>
+                        <div class="balance-status" id="balanceStatus">
+                            <span class="status-dot"></span>
+                            <span>加载中...</span>
+                        </div>
+                    </div>
+                    <div class="balance-details">
+                        <div class="detail-item">
+                            <div class="detail-label">充值余额</div>
+                            <div class="detail-value" id="toppedUpBalance">¥ 0.00</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">赠金余额</div>
+                            <div class="detail-value" id="grantedBalance">¥ 0.00</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-title" style="margin-top: 16px;">📊 本地统计</div>
+                <div class="usage-stats" id="usageStats">
+                    <div class="usage-item">
+                        <div class="usage-label">Token 总量</div>
+                        <div class="usage-value" id="usageTokens">0</div>
+                    </div>
+                    <div class="usage-item">
+                        <div class="usage-label">API 调用</div>
+                        <div class="usage-value" id="usageCalls">0</div>
+                    </div>
+                    <div class="usage-item">
+                        <div class="usage-label">最后更新</div>
+                        <div class="usage-value" id="lastUpdated">--:--</div>
+                    </div>
+                </div>
+                <button class="refresh-usage-btn" id="refreshUsageBtn" title="刷新余额">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21.5 2v6h-6"/>
+                        <path d="M2.5 22v-6h6"/>
+                        <path d="M3.5 8a8.5 8.5 0 0 1 14-6"/>
+                        <path d="M20.5 16a8.5 8.5 0 0 1-14 6"/>
+                    </svg>
+                    刷新余额
+                </button>
+            </div>
+
+            <div class="history-section">
+                <div class="section-title">最近对话</div>
+                <div class="chat-history" id="chatHistory">
+                    <!-- 对话历史会动态添加 -->
+                </div>
+            </div>
